@@ -1,0 +1,13 @@
+.lc{
+    color: red;
+    list-style-position: inside;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    width: 400px;
+}
+
+.he{
+    text-align: center;
+    color:rgb(14, 165, 189, 0.822);
+}

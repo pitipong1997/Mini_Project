@@ -1,0 +1,73 @@
+.button3{
+    background-color: rgb(255, 238, 0);
+    color:rgb(248, 0, 0);
+    border: 2px solid rgb(255, 217, 0);
+    float: right;
+}
+
+.h1{
+    color:rgb(14, 165, 189, 0.822);
+}
+
+.h11{
+    color:rgb(63, 129, 138);
+    font-size: 50px;
+}
+
+.container2{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/902bac43-547a-490c-8ec4-aff7cba98b38/dco47fw-06f7af80-119a-4fa6-8c1c-a7fc83ebd306.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkwMmJhYzQzLTU0N2EtNDkwYy04ZWM0LWFmZjdjYmE5OGIzOFwvZGNvNDdmdy0wNmY3YWY4MC0xMTlhLTRmYTYtOGMxYy1hN2ZjODNlYmQzMDYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1-hySLu2PbXaopbH7FG14JO7M4N8rpDBT7ytLnTLSsc");
+    background-position: center;
+    background-size: cover;
+    color: snow;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.container3{
+    width: 1000px;
+    height: fit-content;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+}
+
+.container4{
+    width: 500px;
+    height: fit-content;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+.container5{
+    width: 500px;
+    height: fit-content;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.container-grid2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
