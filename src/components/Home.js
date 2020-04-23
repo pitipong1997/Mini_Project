@@ -104,7 +104,7 @@ const [salary, setSalary] = useState('')
 
         <div className='container-grid'>
 
-        <ImageUpload/>
+          <ImageUpload/>
           <div className='container4'>
             <AddTodo />
             <VisibleTodoList />
@@ -113,6 +113,8 @@ const [salary, setSalary] = useState('')
           </div>
                 <ApiWeather/>
         </div>
+          
+
       </div>
     )
 }

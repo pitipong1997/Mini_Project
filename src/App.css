@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.footer{
+  text-align: center;
+  left: 0;
+  right: 0;
+  float: inline-end;
+  color:rgb(14, 165, 189, 0.822);
+}

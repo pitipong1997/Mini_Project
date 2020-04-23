@@ -32,7 +32,8 @@ class FacebookLogin extends Component {
               <img src = {firebase.auth().currentUser.photoURL} alt="profile"/>
 
               <br></br>
-              <button className='button3' onClick={() => firebase.auth().signOut()}>Sign out</button>
+              
+              <button className='button4' onClick={() => firebase.auth().signOut()}>Sign out</button>
             </div>
           ) : (
             <StyledFirebaseAuth

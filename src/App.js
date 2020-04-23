@@ -37,6 +37,10 @@ class App extends Component {
       <div className="App">
         { this.state.user ? ( <Home /> ) : ( <Login /> ) }
         <FacebookLogin/>
+        <br></br>
+        <div className= 'footer'>
+              <p>Credit: Pitipong Piti 5835512033 CoE#14</p>
+          </div>
       </div>
     );
   }

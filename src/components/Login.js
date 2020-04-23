@@ -49,6 +49,7 @@ function Login() {
             <button className='button2' onClick={signUp}>Sign Up</button>
         </div>
       </div>
+      
     )
 }
 
