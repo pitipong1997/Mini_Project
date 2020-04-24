@@ -1,5 +1,5 @@
 import React, { useState, useEffect} from 'react';
-import fire from '../config/config';
+// import fire from '../config/config';
 import Task from './Task'
 import {firestore} from '../index'
 import ImageUpload from "./ImageUpload"
@@ -8,16 +8,16 @@ import AddTodo from '../containers/AddTodo';
 import VisibleTodoList from '../containers/VisibleTodoList';
 import Footer from './Footer';
 import ApiWeather from './ApiWeather';
+import NavBar from '../Navbar/NavBar';
 
 
 
 
 function Home() {
 
- 
- const logout = () => {
-    fire.auth().signOut();
-  }
+//  const logout = () => {
+//     fire.auth().signOut();
+//   }
 
   const [tasks, setTasks] = useState([])
 
@@ -76,8 +76,11 @@ const [salary, setSalary] = useState('')
 
     return (
       <div>
-        <button className='button3' onClick = {logout}>Sign out</button><br></br>
-        <br></br>
+        <NavBar/>
+
+        {/* <button className='button3' onClick = {logout}>Sign out</button><br></br>
+        <br></br> */}
+
         <h1 className='h11'>Welcome to my website</h1>
         {/* <h1>Welcome {fire.auth().currentUser.email}</h1> */}
         <div className='container2'>
