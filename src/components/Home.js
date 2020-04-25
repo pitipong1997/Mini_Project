@@ -11,8 +11,6 @@ import ApiWeather from './ApiWeather';
 import NavBar from '../Navbar/NavBar';
 
 
-
-
 function Home() {
 
 //  const logout = () => {
@@ -103,8 +101,6 @@ const [salary, setSalary] = useState('')
           <ul className='container-grid2'>{renderTask()}</ul>
         </div>
         
-        
-
         <div className='container-grid'>
 
           <ImageUpload/>
@@ -116,6 +112,8 @@ const [salary, setSalary] = useState('')
           </div>
                 <ApiWeather/>
         </div>
+
+        
           
 
       </div>

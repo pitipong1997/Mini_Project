@@ -11,7 +11,7 @@
     background-size: cover;
     background-image: url("components/cold-bg.jpg");
     border-radius: 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 28, 185);
   }
   
   .WeatherCard-icon-container {
