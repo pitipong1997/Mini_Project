@@ -17,8 +17,8 @@ function Home() {
 //     fire.auth().signOut();
 //   }
 
-  const [tasks, setTasks] = useState([])
 
+const [tasks, setTasks] = useState([])
 const [name, setName] = useState ('')
 const [surname, setSurname] = useState ('')
 const [salary, setSalary] = useState('')
@@ -40,6 +40,11 @@ const [salary, setSalary] = useState('')
     })
   }
 
+  const addTask = () => {
+    let id =  (tasks.length === 0)?1:tasks[tasks.length-1].id + 1
+    firestore.collection("tasks").doc(id+'').set({id,name,surname,salary})
+  }
+
   const deleteTask = (id) => {
     firestore.collection("tasks").doc(id+'').delete()
 
@@ -49,10 +54,7 @@ const [salary, setSalary] = useState('')
     firestore.collection("tasks").doc(id+'').set({id,name,surname,salary})
   }
 
-  const addTask = () => {
-    let id =  (tasks.length === 0)?1:tasks[tasks.length-1].id + 1
-    firestore.collection("tasks").doc(id+'').set({id,name,surname,salary})
-  }
+  
 
   const renderTask = () => {
     if ( tasks && tasks.length) {
