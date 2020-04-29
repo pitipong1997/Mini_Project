@@ -39,13 +39,6 @@ class ImageUpload extends Component {
             console.log(url);
             this.setState({url});
         })
-    },
-    () => {
-      storage.ref('images').child(image.name).listAll().then(function(result){
-        result.items.forEach(function(imageRef){
-          console.log("Image reference" + imageRef.toString());
-        })
-      })
     }
     );
   }
